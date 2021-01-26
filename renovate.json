@@ -8,7 +8,7 @@
             "depNameTemplate": "DEPENDENCY",
             "datasourceTemplate": "docker",
             "versioningTemplate": "^(?<major>\\d+)(\\.(?<minor>\\d+))+(\\.(?<patch>\\d+))+(\\.(?<compatibility>.*))+$"
-        },
+        }
     ],
 
     "packageRules": [
@@ -16,7 +16,7 @@
             "datasources": ["docker"],
             "registryUrls": ["https://internal-artifactory.com/artifactory/folder"],
             "versioning": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))+(\\.(?<patch>\\d+))+(\\.(?<compatibility>.*))+$"
-        },
+        }
     ],
 
     "enabledManagers": ["regex"]
