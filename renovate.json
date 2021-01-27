@@ -1,5 +1,5 @@
 {
-    "baseBranches": ["main, test-3-digits-version"],
+    "baseBranches": ["main", "test-3-digits-version"],
 
     "regexManagers": [
         {
