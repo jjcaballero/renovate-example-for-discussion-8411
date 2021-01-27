@@ -1,4 +1,6 @@
 {
+    "baseBranches": ["main, test-3-digits-version"],
+
     "regexManagers": [
         {
             "fileMatch": ["^alien/version.txt$"],
