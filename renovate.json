@@ -4,7 +4,7 @@
     "regexManagers": [
         {
             "fileMatch": ["^alien/version.txt$"],
-            "matchStrings": ["^(?<currentValue>.+)$"],
+            "matchStrings": ["^.* (?<currentValue>.+)$"],
             "depNameTemplate": "DEPENDENCY",
             "datasourceTemplate": "pypi"
         }
