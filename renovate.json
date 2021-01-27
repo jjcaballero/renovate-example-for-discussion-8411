@@ -4,7 +4,7 @@
             "fileMatch": ["^alien/version.txt$"],
             "matchStrings": ["^(?<currentValue>.+)$"],
             "depNameTemplate": "DEPENDENCY",
-            "datasourceTemplate": "pypi",
+            "datasourceTemplate": "pypi"
         }
     ],
 
